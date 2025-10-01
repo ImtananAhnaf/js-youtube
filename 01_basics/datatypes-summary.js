@@ -5,3 +5,14 @@ console.log(id ===anotherId);
 const myFunction = function(){
     console.log("Hello World");
 }
+let myYoutubename = "hiteshchoudhrydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+

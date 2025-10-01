@@ -1,8 +1,10 @@
 
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-let value = 3
-let negValue = -value
-console.log(negValue);
 
+let a = 4;
+console.log(a++); // 4 (prints old value, then becomes 5)
+console.log(a); 
+let b = 4;
+console.log(++b); // 5 (increments first, then prints)
+
+console.log(b);

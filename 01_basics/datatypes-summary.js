@@ -16,3 +16,11 @@ let userOne = {
     upi: "user@ybl"
 }
 
+let userTwo = userOne
+
+userTwo.email = "imtanan@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+

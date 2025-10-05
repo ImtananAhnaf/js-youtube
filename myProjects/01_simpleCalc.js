@@ -1,24 +1,39 @@
 
 
 function takeUserInput(num1,num2,operator){
-    let addition
-    let subtraction
-    let multiplication
-    let division
+   num1 = Number(num1)
+   num2 = Number(num2)
+    let msg
+    if(!isNaN(num1) && !isNaN(num2)){
+      
                if(operator=='+'){
-                addtion= num1+num2
-                return addition
+                msg= num1+num2
+                msg = "The addition of " + num1 + " and " + num2 + " is " + msg
                }
                if(operator=='-'){
-                subtraction= num1-num2
-                return subtraction
+               msg = num1-num2
+                msg = "The Subtraction of " + num1 + " with " + num2 + " is " + msg
                }
                if(operator=='*'|| operator =='x'){
-                multiplication= num1+num2
-                return multiplication
+                msg= num1*num2
+                msg = "The multiplication of " + num1 + " with " + num2 + " is " + msg
                }
                if(operator=='/'){
-                division= num1/num2
-                return division
+                msg= num1/num2
+                msg = "The division of " + num1 + " with " + num2 + " is " + msg
                }
+            }else{
+                msg = "Invalid Input!"
+            }
+               return msg
 }
+let number1 =  prompt("Enter Number one")
+
+
+let operator = prompt("Enter the operator")
+
+let number2 = prompt("Enter Number two")
+
+let d= takeUserInput(number1,number2,operator)
+
+alert(d)

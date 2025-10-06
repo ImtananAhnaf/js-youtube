@@ -6,6 +6,7 @@ alert(typeof Input==typeof Input2)
 alert(typeof Input===typeof Input2)
 //automatic conversion examples
 alert(typeof 5 == typeof '5')
+console.log("bro JS thinks '5'  equals to 5 lol")
 let sum = 20 + "Hellow"
 console.log(sum)
 const variable1 = false
